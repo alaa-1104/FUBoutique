@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kids Section</title>
+<link rel="icon" type="image/x-icon" href="images/title.png">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="BT4/bootstrap.min.css">
+  <script src="BT4/jquery.min.js"></script>
+  <script src="BT4/popper.min.js"></script>
+  <script src="BT4/bootstrap.min.js"></script>
+
+	<meta name="description" content="offical website for store">
+	<meta name="keywords" content="boutique,clothes,men,women,kids, t-shirts, pants, dresses,fashion">
+	<meta name="author" content="Alaa&Hadi">
+
+	<meta property="fb:app_id" content="facebook page" />
+	<meta property="fb:page_id" content="facebook page " />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="boutique" />
+	<meta property="og:description" content="a boutique for selling clothes " />
+	<meta property="og:image" content="the logo of the boutique" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="name of the boutique " />
+	<meta name="twitter:url" content="" />
+	<link rel="stylesheet" href="css/addtocart.css">
+	<script src="https://kit.fontawesome.com/565cb8c811.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="header">
+		<p class="logo">KIDS</p>
+		<div class="cart" onclick="toggleSidebar()"><i class="fa-solid fa-cart-shopping"></i></div>
+	</div>
+	<div class="container">
+		<div id="root"></div>
+		<div class="sidebar" id="sidebar">
+			<div class="head"><p>My Cart</p></div>
+			<div id="cartItem">your cart is empty</div>
+			<div class="foot">
+				<h3>Total</h3>
+				<p class="cart-total" id="total">SYP 0.00</p>
+			</div>
+		</div>
+	</div>
+	
+	<section>
+		<div id="services" class="container-fluid">
+		    <div class="row">
+				<div class="col-sm-4">
+				  <div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg1.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title"> Party Dress for girls</h4>
+					  <h4 class="price" id="proprice">150000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg2.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title"> Party Suit for boys </h4>
+					  <h4 class="price" id="proprice">250000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>
+				
+				<div class="col-sm-4">
+					<div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg3.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title"> Jeans Pants for girls</h4>
+					  <h4 class="price" id="proprice">200000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+				  <div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg4.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title"> Jeans Pants for boys</h4>
+					  <h4 class="price" id="proprice">200000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4">
+				  <div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg5.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title">Skirt for girl</h4>
+					  <h4 class="price" id="proprice">250000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-4">
+				  <div class="card h-100">
+					<img class="card-img-top" src="images/KidsImg6.jpg" alt="Card image" style="width:100%">
+					<div class="card-body">
+					  <h4 class="card-title" id="title">T-Shirt for boys</h4>
+					  <h4 class="price" id="proprice">100000 SYP</h4>
+					  <p class="card-text">you can book it now by clicking on 'order now' button or you can add to curt for buying it later</p>
+					  <a class="btn" onclick="openLinkInNewTab1()"  >Order now </a>
+					  <button class="btn" onclick="addToCart(this.parentNode.parentNode)" >Add to Cart</button>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<script src="js/addtocart.js"> </script>
+</body>
+</html>

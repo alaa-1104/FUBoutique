@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Checkout!</title>
+  <link rel="icon" type="image/x-icon" href="images/title.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="BT4/bootstrap.min.css">
+  <script src="BT4/jquery.min.js"></script>
+  <script src="BT4/popper.min.js"></script>
+  <script src="BT4/bootstrap.min.js"></script>
+  <script src="js/checkout.js"></script>
+	<meta name="description" content="offical website for store">
+	<meta name="keywords" content="boutique,clothes,payment,credit,card,cash">
+	<meta name="author" content="Alaa&Hadi">
+
+	<meta property="fb:app_id" content="facebook page" />
+	<meta property="fb:page_id" content="facebook page " />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="boutique" />
+	<meta property="og:description" content="a boutique for selling clothes " />
+	<meta property="og:image" content="the logo of the boutique" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="name of the boutique " />
+	<meta name="twitter:url" content="" />
+  <link rel="stylesheet" href="css/style_checkout.css">
+
+</head>
+<body>
+	<div class="wrapper">
+			<div class="payment">
+			<h2>Checkout Card</h2>
+				<h4>Personal Information</h4>
+				<div class="name">
+					<i class="box">Name and Surname</i>
+					<input class="box1" type="text" id="name" placeholder="Name and Surname"></input>
+				</div>
+				<div class="phone-number">
+					<i class="box">Phone Number</i>
+					<input class="box2" type="number" id="phonenumber" placeholder="Phone Number"></input>
+				</div>
+				<div class="adress">
+					<i class="box">Address</i>
+					<input class="box3" type="text" id="adress" placeholder="Address"></input>
+				</div>
+					<!-- card information -->
+				<h4>Card Information</h4>
+
+				<div class="card-number">
+					<i class="box">Card Number</i>
+					<input class="box4" type="number" id="cardnumber" placeholder="Card Number"></input>
+				</div>
+				<div class="expiry-date">
+					<i class="box">Expiry Date</i>
+					<input class="box5" type="date" id="expdate" placeholder="Expiry Date"></input>
+				</div>
+				<div class="button">
+					<button class="confirm" onclick="message()" id="pay">Pay</button>
+				</div>
+				<div class="cardmessage">
+					<div class="success" id="success">your payment has been confirmed successfully,the order will be shipped soon</div>
+					<div class="danger" id="danger">fields can't be empty</div>
+				</div>
+			</div>
+	</div>
+
+</body>
+</html>
