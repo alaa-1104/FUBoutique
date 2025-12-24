@@ -1,0 +1,137 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	margin:0 10px;
+}
+
+.payment{
+	background:orange;
+	max-width:500px;
+	margin:80px auto;
+	padding:35px;
+	padding-top:70px;
+	border-radius:5px;
+	position:relative;
+	flex-direction:column;
+    display: flex;
+
+}
+.payment h2{
+	text-align:center;
+	letter-spacing:2px;
+	margin-bottom:40px;
+	color: black;
+	
+}
+.payment h4{
+	text-align:center;
+	letter-spacing:2px;
+	margin-top:20px;
+	margin-bottom:15px;
+	color: black;
+	
+}
+.payment .box{
+	display: block;
+	background-color:orange;
+	color:black;
+	margin-bottom:0px;
+	font-weight: bold;
+}
+.payment .box1{
+	display: block;
+	background-color:white;
+	color:black;
+	margin-bottom:15px;
+	border-radius:10px;
+	width:100%;
+}
+.payment .box2{
+	display: block;
+	background-color:white;
+	color:black;
+	margin-bottom:15px;
+	border-radius:10px;
+	width:100%;
+}
+.payment .box3{
+	display: block;
+	background-color:white;
+	color:black;
+	margin-bottom:15px;
+	border-radius:10px;
+	width:100%;
+}
+.payment .box4{
+	display: block;
+	background-color:white;
+	color:black;
+	margin-bottom:15px;
+	border-radius:10px;
+	width:100%;
+}
+.payment .box5{
+	display: block;
+	background-color:white;
+	color:black;
+	margin-bottom:15px;
+	border-radius:10px;
+	width:100%;
+}
+.payment .input{
+	padding:13px 0 13px 25px;
+	width:100%;
+	border:2px solid #dddddd;
+	border-radius:5px;
+	letter-spacing:1px;
+	word-wrap: 3px;
+	outline: none;
+	font-size:16px;
+	color:red;
+}
+
+
+
+.confirm{
+	background-color:black;
+	color:orange;
+	margin-top:35px;
+	background:black;
+	padding:2px;
+	text-align:center;
+	color:orange;
+	border-radius:5px;
+	cursor:pointer;
+	height:50px;
+	width:100%;
+}
+
+.cardmessage{
+	width:100%;
+	position:relative;
+	margin-bottom: 60px;
+	display:flex;
+	justify-content:center;
+	color:red;
+
+}
+.cardmessage .success{
+	font-size:20px;
+	color:green;
+	position:absolute;
+	animation: button .3s linear;
+	display:none;
+	font-weight: bold;
+}
+.cardmessage .danger{
+	font-size:20px;
+	color:red;
+	position:absolute;
+	animation: button .3s linear;
+	display:none;
+	font-weight: bold;
+}
