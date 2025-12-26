@@ -1,7 +1,7 @@
 # For U Boutique Website
 
-This project is a multi-page static website for a clothing boutique called "For U Boutique".
-The website allows users to browse different clothing categories and proceed to a checkout page
+A responsive e-commerce website built with HTML, CSS, and JavaScript, deployed using GitHub Pages,
+the website allows users to browse different clothing categories and proceed to a checkout page
 to simulate the purchasing process.
 
 ## Project Description
